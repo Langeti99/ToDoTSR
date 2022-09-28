@@ -1,0 +1,34 @@
+.button {
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: #fff;
+    &_green{
+        border: 1px solid rgba(4, 143, 46, 0.5);
+        color:rgb(17, 235, 82);
+        &:hover{
+        border: 1px solid rgba(4, 143, 46, 0.15);
+        }
+    }
+    &_blue{
+        border: 1px solid rgba(40, 9, 175, 0.5);
+        color:rgb(17, 104, 235);
+        &:hover{
+            border: 1px solid rgba(40, 9, 175, 0.15);
+        }
+    }
+    &_red{
+        border: 1px solid rgba(255, 34, 5, 0.5);
+        color:rgb(255, 0, 0);
+        &:hover{
+            border: 1px solid rgba(255, 34, 5, 0.15);
+        }
+    }
+    img{
+        margin-right: 20px;
+        width: 15px;
+        height: 15px;
+        display:block;
+        margin: 0 auto;
+    }
+}

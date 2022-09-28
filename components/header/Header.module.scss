@@ -1,0 +1,24 @@
+.header {
+    padding: 15px 20px;
+    background-color: gray;
+    display: grid;
+    border: 1px solid black;
+    p{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    ul{
+      display: flex;
+      gap:15px;
+      justify-content: right;
+    }
+    &_small{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
+    }
+    &_big{
+        grid-template-columns: 1fr 2fr 2fr ;
+        text-align: center;
+    }
+}
